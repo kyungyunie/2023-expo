@@ -25,7 +25,8 @@ def run_game():
     image_path = "C:/Users/baesuhan/Desktop/2023-expo/static/image/"
     video_path = "C:/Users/baesuhan/Desktop/2023-expo/static/video/"
 
-    rand = random.randint(1,4)
+    # 수정
+    rand = random.randint(1,5)
 
     sound = pygame.mixer.Sound(sound_path + "sound.wav")
     minussound = pygame.mixer.Sound(sound_path + "minussound.wav")
@@ -37,8 +38,8 @@ def run_game():
     username = f'user{user}' # 사용자의 이름 
 
     max_score = []
-
-    for i in range(1,4):
+    # 수정
+    for i in range(1,5):
         if rand == i:
             pygame.mixer.music.load(sound_path + f"Music{str(rand)}.mp3")
             plus3 = cv2.resize(cv2.imread(image_path + f'plus3{str(rand)}.png', cv2.IMREAD_UNCHANGED),(200,200))
@@ -137,7 +138,7 @@ def run_game():
     while True:
         ret, frame = cap.read()
         if not ret:
-            print('cannot read capture image')
+            print('cannot read capture image1')
             break
         
         # cv2.imshow('show',cv2.resize(frame,(1280,720)))
@@ -204,7 +205,7 @@ def run_game():
                                         while True:
                                             ret, frame = cap.read()
                                             if not ret:
-                                                print('cannot read capture image')
+                                                print('cannot read capture image2')
                                                 break
 
                                             reg, buffer = cv2.imencode('.jpg', frame)
@@ -220,14 +221,14 @@ def run_game():
                                         
 
                                 if game_start_event == True and time_remaining > 0:
-
-                                    if rand == 0:
+                                    # 수정
+                                    if rand == 1:
                                         image = cv2.addWeighted(image,0,background1,1,0)
                                         
-                                    elif rand == 1:
+                                    elif rand == 2:
                                         image = cv2.addWeighted(image,0,background2,1,0)
                                                 
-                                    elif rand == 2:
+                                    elif rand == 3:
                                         image = cv2.addWeighted(image,0,background3,1,0)
                                     
                                     else:

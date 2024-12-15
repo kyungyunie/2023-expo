@@ -66,8 +66,8 @@
 ### 🔔 팀원 소개
 | **이름**    | **역할**       | **담당 업무**                 | **깃허브 주소** |
 |-------------|----------------|-------------------------------|-------------------------------|
-| 배수한       | 프론트엔드, AI     | 게임 인터페이스 설계 및 손 제스처 인식 기능 구현  | https://github.com/uh004 |
-| 권민정       | AI     | Mediapipe와 OpenCV를 활용한 동작 인식 시스템 개발          | https://github.com/nyryngji |
-| 이건호       | 백엔드         | Flask를 활용한 웹 애플리케이션 및 데이터 관리      | https://github.com/geonho27|
-| 김예림       | UI/UX         | 게임 화면 디자인 및 사용자 경험 개선      | https://github.com/namerim |
-| 양경윤       | UI/UX         | UI 프로토타입 제작 및 인터페이스 최적화      | - |
+|  배수한       | 프론트엔드, AI     | 게임 인터페이스 설계 및 손 제스처 인식 기능 구현  | https://github.com/uh004 |
+|  권민정       | AI     | Mediapipe와 OpenCV를 활용한 동작 인식 시스템 개발          | https://github.com/nyryngji |
+|  이건호       | 백엔드         | Flask를 활용한 웹 애플리케이션 및 데이터 관리      | https://github.com/geonho27|
+|  김예림       | UI/UX         | 게임 화면 디자인 및 사용자 경험 개선      | https://github.com/namerim |
+|  양경윤       | UI/UX         | UI 프로토타입 제작 및 인터페이스 최적화      | - |
